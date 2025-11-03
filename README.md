@@ -15,6 +15,9 @@ Features :
 
 Folder Structure
 
+> **Note:** Some folders (like `venv/`, `data/raw/`, `vector_store/`) are listed here for structure clarity but are **excluded via `.gitignore`**.
+
+
 ``` RAG/
     │
     ├── .vscode/
