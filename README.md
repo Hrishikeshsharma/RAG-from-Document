@@ -1,4 +1,4 @@
-Retrieval-Augmented Generation (RAG) with Grok API
+**Retrieval-Augmented Generation (RAG) with Grok API**
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline that extracts and cleans text from PDF documents, splits it into manageable chunks, generates vector embeddings using Sentence-Transformers, stores them in a FAISS index, and uses the Grok API (model: llama-3.1-8B-instant) for intelligent, context-aware text generation.
 
