@@ -1,4 +1,5 @@
 from src.retrieval import query_rag
+from src.build_rag import *
 
 chunks = r"C:\Projects\RAG\data\processed\chunks.json"
 vector_db = r"C:\Projects\RAG\vector_store\my_index.faiss"
