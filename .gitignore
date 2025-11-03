@@ -1,0 +1,51 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environment ---
+venv/
+
+# --- Environment & secrets ---
+.env
+.env.*
+*.key
+apikey.txt
+
+# --- Data files (raw and processed) ---
+data/raw/
+data/processed/
+*.pdf
+*.txt
+*.csv
+
+# --- FAISS / Embeddings / Vectors ---
+vector_store/
+*.faiss
+*.npy
+*.pkl
+*.bin
+
+# --- Jupyter notebooks ---
+notebooks/
+*.ipynb_checkpoints/
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.cache/
+.cache/
+__cache__/
+
+# --- IDE / OS specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
