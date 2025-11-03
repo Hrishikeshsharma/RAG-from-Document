@@ -15,7 +15,7 @@ Features :
 
 Folder Structure
 
-''' RAG/
+``` RAG/
     │
     ├── .vscode/
     |
@@ -55,4 +55,4 @@ Folder Structure
     ├── requirements.txt              # Dependencies
     ├── .gitignore
     └── README.md                     # Project documentation
-'''
+```
