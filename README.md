@@ -15,43 +15,44 @@ Features :
 
 Folder Structure
 
-RAG/
-│
-├── .vscode/
-|
-|
-├── data/
-|   ├──raw/                       # Place your PDFs here
-|   ├── processed/                # chunks.json and cleaned text files are generated automatically here
-│
-├── src/                          # Contains all Python scripts     
-|   ├── __init__.py               # makes src a package
-│   ├── extraction.py             # Extracts text from PDFs
-│   ├── text_cleaning.py          # Cleans and normalizes text
-│   ├── chunking.py               # Splits text into small chunks
-│   ├── embedding_faiss.py        # Creates embeddings using SentenceTransformer and stores in FAISS
-│   ├── retrieval.py              # Retrieves top matches from FAISS
-│   ├── build.py                  # Handles Grok API communication
-│   ├── config.py                 # Stores paths, constants, API keys
-│ 
-│ 
-├── vector_store/                 # Auto-created when you run the embedder
-│    ├── my_index.faiss
-│ 
-├── notebooks/
-│   ├── extraction.ipynb          # jupyter notebook files
-│   ├── text_cleaning.ipynb
-│   . 
-│   .
-│   
-├── venv/
-│    ├── etc/
-│    ├── include/
-│    .
-│    .
-│ 
-├── .env.example
-├── main.py                       # Entry point for querying
-├── requirements.txt              # Dependencies
-├── .gitignore
-└── README.md                     # Project documentation
+''' RAG/
+    │
+    ├── .vscode/
+    |
+    |
+    ├── data/
+    |   ├──raw/                       # Place your PDFs here
+    |   ├── processed/                # chunks.json and cleaned text files are generated automatically here
+    │
+    ├── src/                          # Contains all Python scripts     
+    |   ├── __init__.py               # makes src a package
+    │   ├── extraction.py             # Extracts text from PDFs
+    │   ├── text_cleaning.py          # Cleans and normalizes text
+    │   ├── chunking.py               # Splits text into small chunks
+    │   ├── embedding_faiss.py        # Creates embeddings using SentenceTransformer and stores in FAISS
+    │   ├── retrieval.py              # Retrieves top matches from FAISS
+    │   ├── build.py                  # Handles Grok API communication
+    │   ├── config.py                 # Stores paths, constants, API keys
+    │ 
+    │ 
+    ├── vector_store/                 # Auto-created when you run the embedder
+    │    ├── my_index.faiss
+    │ 
+    ├── notebooks/
+    │   ├── extraction.ipynb          # jupyter notebook files
+    │   ├── text_cleaning.ipynb
+    │   . 
+    │   .
+    │   
+    ├── venv/
+    │    ├── etc/
+    │    ├── include/
+    │    .
+    │    .
+    │ 
+    ├── .env.example
+    ├── main.py                       # Entry point for querying
+    ├── requirements.txt              # Dependencies
+    ├── .gitignore
+    └── README.md                     # Project documentation
+'''
